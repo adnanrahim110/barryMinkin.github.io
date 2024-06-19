@@ -1,0 +1,34 @@
+@media screen and (max-width: 1200px) {
+    .sec-1 h1 {font-size: 47px;} 
+    .sec-2 h1 {font-size: 40px;}
+    .author-card h1 {font-size: 50px;}
+    .ft-right .ft-social-link {margin-right: 10px;}
+}
+
+@media screen and (max-width: 992px) {
+    .container {max-width: 900px;}
+    .navbar-nav {flex-direction: row;}
+    .sec-2 h1 {font-size: 35px;}
+    .sec-2 p {font-size: 15px; margin-bottom: 20px;}
+    .sec-4 .author-card p {font-size: 15px;}
+    .author-card h1 {font-size: 35px;}
+    .sec-4 .author-card p {font-size: 14px;}
+    .ft-links a {font-size: 18px; margin-right: 20px;}
+    .ft-cr {letter-spacing: 1px;}
+}
+
+@media screen and (max-width: 768px) {
+    .container {max-width: 650px;}
+    .image-container {max-width: 80%;}
+    #back-image, #top-image {right: 0;}
+    .sec2-left {padding-inline: 50px; margin-bottom: 50px;}
+    .sec-2 h1 {font-size: 30px; margin-top: 30px; padding-top: 30px;}
+    .sec-2 p {font-size: 14px;}
+    .author-details {position: unset;}
+    .sec-4 .author-card {position: unset;}
+    .sec-4 .author-img {position: unset; height: 400px; width: 100%; margin-top: 20px;}
+    .ft-right {margin-top: 50px;}
+    .ft-left {text-align: center;}
+    .ft-links {justify-content: center; align-items: center; display: flex;}
+    .ft-left p {padding-right: 0;}
+}
