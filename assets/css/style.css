@@ -127,6 +127,33 @@ body::before {
   z-index: -1;
 }
 
+#scrollTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border: none;
+  outline: none;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: all .3s ease-out;
+}
+
+#scrollTop .arrow {
+  display: block;
+}
+
+#scrollTop:hover {
+  transform: translateY(-5px);
+}
+
 /* NAVBAR */
 
 .navbar {
