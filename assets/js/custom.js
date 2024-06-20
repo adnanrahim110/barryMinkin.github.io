@@ -68,4 +68,51 @@ window.addEventListener('scroll', function() {
     lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
 }, false);
 
+$(document).ready(function () {
+    $('#nextBtn1').click(function () {
+        $('.bd-modal-1').modal('hide');
+        $('.bd-modal-2').modal('show');
+    });
 
+    $('#prevBtn2').click(function () {
+        $('.bd-modal-2').modal('hide');
+        $('.bd-modal-1').modal('show');
+    });
+
+    $('#nextBtn2').click(function () {
+        $('.bd-modal-2').modal('hide');
+        $('.bd-modal-3').modal('show');
+    });
+
+    $('#prevBtn3').click(function () {
+        $('.bd-modal-3').modal('hide');
+        $('.bd-modal-2').modal('show');
+    });
+    $('#nextBtn3').click(function () {
+        $('.bd-modal-3').modal('hide');
+        $('.bd-modal-4').modal('show');
+    });
+
+    $('#prevBtn4').click(function () {
+        $('.bd-modal-4').modal('hide');
+        $('.bd-modal-3').modal('show');
+    });
+    $('#nextBtn4').click(function () {
+        $('.bd-modal-4').modal('hide');
+        $('.bd-modal-5').modal('show');
+    });
+
+    $('#prevBtn5').click(function () {
+        $('.bd-modal-5').modal('hide');
+        $('.bd-modal-4').modal('show');
+    });
+    $('#nextBtn5').click(function () {
+        $('.bd-modal-5').modal('hide');
+        $('.bd-modal-6').modal('show');
+    });
+
+    $('#prevBtn6').click(function () {
+        $('.bd-modal-6').modal('hide');
+        $('.bd-modal-5').modal('show');
+    });
+});

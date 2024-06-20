@@ -110,6 +110,7 @@ body {
   line-height: 1.6;
   background-color: var(--secondary-color);
   color: #fff;
+  overflow-x: hidden;
 }
 
 body::before {
@@ -130,6 +131,11 @@ body::before {
 
 .navbar {
   margin-top: 80px;
+}
+
+.navbar-brand img {
+  width: 150px;
+  height: 150px;
 }
 
 .nav_btn {
@@ -275,7 +281,6 @@ body::before {
 }
 
 .sec3-card {
-  background-size: cover;
   padding: 20px;
   text-align: center;
   border-radius: 10px;
@@ -295,9 +300,10 @@ body::before {
 }
 
 .sec3-card h1 {
-  padding-inline: 30px;
+  padding-inline: 10px;
   padding-top: 20px;
   color: #fff;
+  font-size: 30px;
 }
 
 .sec3-btn {
@@ -314,22 +320,93 @@ body::before {
 }
 
 .sec3-card.c-1 {
-  background: url(../images/chapter-01.jpg) no-repeat center;
+  background: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/chapter-01.jpg) no-repeat center;
+  background-size: cover;
 }
 .sec3-card.c-2 {
-  background: url(../images/chapter-02.jpg) no-repeat center;
+  background: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/chapter-02.jpg) no-repeat center;
+  background-size: cover;
 }
 .sec3-card.c-3 {
-  background: url(../images/chapter-03.jpg) no-repeat center;
+  background: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/chapter-03.jpg) no-repeat center;
+  background-size: cover;
 }
 .sec3-card.c-4 {
-  background: url(../images/chapter-01.jpg) no-repeat center;
+  background: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/chapter-04.jpg) no-repeat center;
+  background-size: cover;
 }
 .sec3-card.c-5 {
-  background: url(../images/chapter-01.jpg) no-repeat center;
+  background: linear-gradient(to left, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/chapter-05.jpg) no-repeat center;
+  background-size: cover;
 }
 .sec3-card.c-6 {
-  background: url(../images/chapter-01.jpg) no-repeat center;
+  background: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/chapter-06.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.modal-header .close {
+  font-size: 2rem;
+  padding-right: 2rem;
+}
+
+.modal-inner-left {
+  padding: 4rem;
+}
+
+.m-title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.msub-title {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.modal-inner-left p {
+  font-size: 1.5rem;
+}
+
+.modal-inner-btns {
+  margin-top: 50px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.modal-btn {
+  background-color: #faf1c7;
+  color: #ecbf0b;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.modal-btn:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+.modal-btn span {
+  margin-inline: 10px;
+}
+
+.modal-inner-right {
+  background: #fdf9ec;
+}
+
+.modal-img {
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* SECTION 3 */
@@ -383,7 +460,7 @@ body::before {
 
 .sec-4 .author-card p {
   color: #000;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 30px;
 }
 
@@ -416,7 +493,7 @@ body::before {
   content: "\201C";
   font-family: var(--secondary-font);
   font-size: 80px;
-  line-height: 0.5px;
+  line-height: 0;
   width: 50%;
   height: 50%;
   color: var(--primary-color);
@@ -436,8 +513,8 @@ body::before {
 }
 
 .testi-icon img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
 }
 
@@ -514,7 +591,7 @@ footer {
 
 .ft-icon img {
   height: 100px;
-  width: 200px;
+  width: 100px;
 }
 
 .ft-left p {

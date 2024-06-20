@@ -32,3 +32,9 @@
     .ft-links {justify-content: center; align-items: center; display: flex;}
     .ft-left p {padding-right: 0;}
 }
+
+@media (min-width: 992px) {
+    .modal-lg, .modal-xl {
+        max-width: 1050px;
+    }
+}
