@@ -112,7 +112,7 @@ body {
   color: #fff;
   overflow-x: hidden;
 }
-
+/* 
 body::before {
   background-color: var(--secondary-color);
   background: url(../images/bg.svg) 50% repeat;
@@ -125,7 +125,7 @@ body::before {
   position: fixed;
   will-change: transform;
   z-index: -1;
-}
+} */
 
 #scrollTop {
   display: none;
