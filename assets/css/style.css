@@ -654,7 +654,6 @@ input.form-control {
 }
 
 .card-body {
-  transform: translateY(-100%);
   position: absolute;
   width: 100%;
   height: 100%;
